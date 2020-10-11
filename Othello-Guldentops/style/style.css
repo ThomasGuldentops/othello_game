@@ -1,0 +1,147 @@
+.button{
+    -fx-background-color : #525252;
+    -fx-text-fill: #999999;
+}
+
+.button:hover{
+    -fx-background-color : #b7423d;
+    -fx-text-fill : #ffff80;
+}
+
+.root{
+    -fx-background-color : #2d2d2d;
+}
+
+.label{
+    -fx-text-fill : #999999;
+}
+
+.label:hover{
+    -fx-text-fill : #ffff80;
+}
+
+.nameLabel{
+    -fx-padding: 0 30 0 0;
+    -fx-font-weight: bold;
+    -fx-text-transform: uppercase;
+}
+.text-field{
+    -fx-background-color : #b7423d;
+    -fx-text-fill : #FFFFFF;
+    -fx-padding : 5px;
+    -fx-pref-width : 300px;
+
+}
+
+#boxPlayer{
+    -fx-margin  : 300px;
+}
+
+.playerName{
+    -fx-margin : 100px;
+}
+
+/* table view */
+.table-view{
+    -fx-background-color: transparent;
+}
+
+.table-column {
+  -fx-alignment: CENTER;
+}
+
+
+.table-view:focused{
+    -fx-background-color: transparent;
+}
+
+
+.table-view .column-header-background{
+    -fx-background-color: #424242;
+}
+
+.table-view .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: #999999;
+}
+
+.table-view .column-header-background .label:hover{
+    -fx-text-fill: #ffff80;
+}
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.table-view .table-cell{
+    -fx-text-fill: white;
+}
+
+.table-row-cell{
+    -fx-background-color: -fx-table-cell-border-color, #525252;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; /* 0 */
+    -fx-cell-size: 40.6px; 
+}
+
+
+
+.table-row-cell:selected {
+    -fx-background-color: #b7423d;
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+}
+.table-row-cell .label:hover {
+    -fx-text-fill: #ffff80;
+}
+.table-view > .virtual-flow > .scroll-bar:vertical,
+.table-view > .virtual-flow > .scroll-bar:vertical > .track,
+.table-view > .virtual-flow > .scroll-bar:vertical > .track-background, 
+.table-view > .virtual-flow > .scroll-bar:horizontal,
+.table-view > .virtual-flow > .scroll-bar:horizontal > .track,
+.table-view > .virtual-flow > .scroll-bar:horizontal > .track-background {
+    -fx-background-color: transparent;
+}
+
+
+
+.table-view > .virtual-flow > .scroll-bar > .increment-button, 
+.table-view > .virtual-flow > .scroll-bar > .decrement-button {
+    -fx-opacity: 0;
+}
+
+/* player information*/
+.playerInformation{
+    -fx-padding : 19px;
+}
+
+.playerInformation > .label{
+    -fx-padding : 11px;
+    -fx-text-fill : #000000;
+
+}
+
+.playerInformation > .text{
+    -fx-text-fill : #FFFFFF;
+
+}
+
+.tileRed{
+    -fx-background-color: #b7423d;
+}
+
+.tileBlack{
+    -fx-background-color: #525252;
+}
+
+.progress-indicator .percentage {
+    -fx-fill: #FFFFFF ;
+}
+
+/* display winner label */
+
+.displayWinner{
+    -fx-text-fill : #ffffff;
+    -fx-alignement : CENTER;
+    -fx-font-weight: bold;
+    -fx-font-size : 35px;
+}
